@@ -2,11 +2,11 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/new/{catchAll}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44346
+          "Port": 49619
         }
       ],
       "UpstreamPathTemplate": "/test/api/{catchAll}",
@@ -16,6 +16,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:44316"
+    "BaseUrl": "http://localhost:49580"
   }
 }
